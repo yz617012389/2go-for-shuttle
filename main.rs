@@ -27,7 +27,7 @@ async fn setup_environment() {
         ("CFPORT", "443"),      // 优选域名或优选ip对应的端口
         ("NAME", "Shuttle"),    // 节点名称
         ("FILE_PATH", "./tmp"), // 运行目录，保持不变
-        ("SUB_PATH", "yizong"),    // 获取节点订阅路径，分配的域名/sub
+        ("SUB_PATH", "sub"),    // 获取节点订阅路径，分配的域名/sub
     ];
 
     for (key, default_value) in env_vars {
